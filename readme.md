@@ -61,6 +61,6 @@ Una aplicación de pedidos desarrollada con React Native que ofrece una experien
 
 ## Instalación
 
-1. Clona el repositorio: `git clone `
+1. Clona el repositorio: `git clone https://github.com/Salocin0/reactNativeCoder-firebase.git`
 2. Instala las dependencias: `npm install`
 5. Ejecuta la aplicación: `npm start`
