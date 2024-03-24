@@ -37,7 +37,7 @@ export default function Perfil() {
   useEffect(() => {
     if (longitude !== null && latitude !== null) {
       const newUsuarioData = {
-        imagen: usuario?.[0]?.imagen || datausuario.imagen,
+        imagen: datausuario.imagen,
         nombre: usuario?.[0]?.nombre || datausuario.nombre,
         email: usuario?.[0]?.email || datausuario.email,
         direccion: direccion || datausuario.direccion,
@@ -90,7 +90,7 @@ export default function Perfil() {
     <View style={styles.container}>
       <View style={styles.fotoContainer}>
         <Image
-          source={usuario?.[0]?.imagen || datausuario.imagen}
+          source={datausuario.imagen}
           style={styles.foto}
         />
       </View>

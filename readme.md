@@ -33,9 +33,9 @@ Una aplicación de pedidos desarrollada con React Native que ofrece una experien
 - Muestra el precio.
 - Permite agregar el producto al carrito.
 
-<img src="" width="300" >
-<img src="" width="300" >
-<img src="" width="300" >
+<img src="/assets/screenshots/1.png" width="300" >
+<img src="/assets/screenshots/2.png" width="300" >
+<img src="/assets/screenshots/3.png" width="300" >
 
 ### Navegación Inferior
 
@@ -44,8 +44,10 @@ Una aplicación de pedidos desarrollada con React Native que ofrece una experien
 - **Pestaña 3 - Pedidos:** Historial de pedidos realizadas.
 - **Pestaña 4 - Perfil:** Información del usuario y ubicación.
 
-<img src="" width="300" >
-<img src="" width="300" >
+<img src="/assets/screenshots/4.png" width="300" >
+<img src="/assets/screenshots/5.png" width="300" >
+<img src="/assets/screenshots/6.png" width="300" >
+<img src="/assets/screenshots/7.png" width="300" >
 
 ## Tecnologías Utilizadas
 
