@@ -9,8 +9,8 @@ Una aplicación de pedidos desarrollada con React Native que ofrece una experien
 - **Acceso seguro:** Solo los usuarios autenticados pueden acceder a la pantalla de perfil y realizar compras.
 - **Información del usuario:** Muestra detalles del usuario, como nombre y dirección.
 
-<img src="" width="300" >
-<img src="" width="300" >
+<img src="./assets/screenshots/1.png" width="300" >
+<img src="./assets/screenshots/2.png" width="300" >
 
 ### Autenticación con Firebase
 
@@ -22,10 +22,14 @@ Una aplicación de pedidos desarrollada con React Native que ofrece una experien
 - Muestra una selección de puestos en tarjetas.
 - Al hacer clic en un puesto, se navega a la pantalla de productos de este.
 
+<img src="./assets/screenshots/3.png" width="300" >
+
 ### Pantalla de Productos
 
 - Lista todos los productos en tarjetas con nombre y descripcion.
 - Al hacer clic en un producto, se navega a la pantalla de detalles del producto.
+
+<img src="./assets/screenshots/4.png" width="300" >
 
 ### Pantalla de Detalles del Producto
 
@@ -33,9 +37,7 @@ Una aplicación de pedidos desarrollada con React Native que ofrece una experien
 - Muestra el precio.
 - Permite agregar el producto al carrito.
 
-<img src="/assets/screenshots/1.png" width="300" >
-<img src="/assets/screenshots/2.png" width="300" >
-<img src="/assets/screenshots/3.png" width="300" >
+<img src="./assets/screenshots/5.png" width="300" >
 
 ### Navegación Inferior
 
@@ -44,10 +46,9 @@ Una aplicación de pedidos desarrollada con React Native que ofrece una experien
 - **Pestaña 3 - Pedidos:** Historial de pedidos realizadas.
 - **Pestaña 4 - Perfil:** Información del usuario y ubicación.
 
-<img src="/assets/screenshots/4.png" width="300" >
-<img src="/assets/screenshots/5.png" width="300" >
-<img src="/assets/screenshots/6.png" width="300" >
-<img src="/assets/screenshots/7.png" width="300" >
+<img src="./assets/screenshots/6.png" width="300" >
+<img src="./assets/screenshots/7.png" width="300" >
+<img src="./assets/screenshots/8.png" width="300" >
 
 ## Tecnologías Utilizadas
 

@@ -16,7 +16,7 @@ import Aviso from "./Aviso";
 const Pedidos = () => {
   const localId = useSelector((state) => state.auth.localId);
   const pedidosQuery = useGetPedidosQuery(localId);
-  const { data: pedidos, isLoading } = pedidosQuery;
+  var { data: pedidos, isLoading } = pedidosQuery;  
 
   if (isLoading) {
     return (
@@ -35,8 +35,8 @@ const Pedidos = () => {
   return (
     <View style={styles.container}>
       <FlatList
-        data={pedidos}
-        keyExtractor={(item) => item.id.toString()}
+        data={pedidos.slice().sort((a, b) => new Date(b.fecha) - new Date(a.fecha))}
+        keyExtractor={(item) => item.fecha.toString()}
         renderItem={({ item }) => (
           <PedidoCard pedido={item} />
         )}
